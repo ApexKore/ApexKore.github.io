@@ -98,12 +98,17 @@ const Footer: React.FC = () => {
                 </div>
                 <span className="brand-font font-bold uppercase tracking-wider text-lg">GITHUB</span>
               </a>
-              <a href="mailto:kmeanstudio@gmail.com" className="group flex items-center gap-4 text-white hover:text-[#ff6600] transition-colors">
-                <div className="flex h-10 w-10 items-center justify-center border border-gray-700 group-hover:border-[#ff6600] bg-gray-900 transition-colors">
-                  <Mail className="h-5 w-5" />
-                </div>
-                <span className="brand-font font-bold uppercase tracking-wider text-lg">GMAIL</span>
-              </a>
+              <a 
+                  href="https://mail.google.com/mail/?view=cm&fs=1&to=kmeanstudio@gmail.com" 
+                  target="_blank" 
+                  rel="noreferrer" 
+                  className="group flex items-center gap-4 text-white hover:text-[#ff6600] transition-colors"
+                >
+                  <div className="flex h-10 w-10 items-center justify-center border border-gray-700 group-hover:border-[#ff6600] bg-gray-900 transition-colors">
+                    <Mail className="h-5 w-5" />
+                  </div>
+                  <span className="brand-font font-bold uppercase tracking-wider text-lg">GMAIL</span>
+                </a>
             </div>
           </div>
 
