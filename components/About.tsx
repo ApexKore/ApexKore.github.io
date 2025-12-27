@@ -17,7 +17,7 @@ const About: React.FC = () => {
             <div className="relative h-64 md:h-80 w-full border-4 border-black p-2 bg-gray-100">
                {/* Image Container with Team Photo */}
                <img 
-                 src="image.png" 
+                 src="../image.png" 
                  alt="The K-Mean Studio Team" 
                  className="h-full w-full object-cover border-[3px] border-black"
                />
