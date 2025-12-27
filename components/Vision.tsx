@@ -16,12 +16,13 @@ const Vision: React.FC = () => {
              <span className="brand-font text-xl md:text-3xl font-black uppercase tracking-[0.2em] text-black leading-none mb-0">
                THE
              </span>
-             {/* FIXED TYPOGRAPHY BELOW:
-                - text-5xl: Fits on mobile screens (iPhone SE, etc)
-                - sm:text-8xl: Grows on Tablets
-                - lg:text-[10rem]: Massive on Desktop
+             
+             {/* UPDATED SIZE: 
+                - text-6xl: Bigger (approx 60px). Fits "VISION" perfectly on most phones.
+                - sm:text-8xl: Huge on tablets.
+                - lg:text-[10rem]: Massive on desktop.
              */}
-             <h2 className="brand-font text-5xl sm:text-8xl md:text-9xl lg:text-[10rem] font-black uppercase leading-[0.8] text-black tracking-tighter -ml-1">
+             <h2 className="brand-font text-6xl sm:text-8xl lg:text-[10rem] font-black uppercase leading-[0.8] text-black tracking-tighter -ml-1 break-words">
                VISION
              </h2>
            </div>
@@ -29,7 +30,6 @@ const Vision: React.FC = () => {
 
         {/* Right Column: Content */}
         <div className="flex-1 flex flex-col pt-4">
-          {/* Fixed "CALCULATED" text size for mobile safety */}
           <h3 className="mb-8 brand-font text-4xl sm:text-5xl md:text-6xl font-black uppercase leading-none tracking-tight">
             CALCULATED <br className="hidden md:block"/> <span className="text-[#ff6600]">CREATIVITY</span>
           </h3>
