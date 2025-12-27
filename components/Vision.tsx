@@ -17,12 +17,11 @@ const Vision: React.FC = () => {
                THE
              </span>
              
-             {/* UPDATED SIZE: 
-                - text-6xl: Bigger (approx 60px). Fits "VISION" perfectly on most phones.
-                - sm:text-8xl: Huge on tablets.
-                - lg:text-[10rem]: Massive on desktop.
+             {/* THE TRICK: text-[17vw] 
+                This calculates exactly 17% of the screen width.
+                It is the biggest possible size that fits next to the orange bar without cutting off.
              */}
-             <h2 className="brand-font text-6xl sm:text-8xl lg:text-[10rem] font-black uppercase leading-[0.8] text-black tracking-tighter -ml-1 break-words">
+             <h2 className="brand-font text-[17vw] sm:text-9xl lg:text-[10rem] font-black uppercase leading-[0.8] text-black tracking-tighter -ml-1 break-words">
                VISION
              </h2>
            </div>
