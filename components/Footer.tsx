@@ -92,13 +92,13 @@ const Footer: React.FC = () => {
                <span className="text-xs font-bold uppercase tracking-widest text-gray-500">Connect</span>
             </div>
             <div className="flex flex-col gap-4">
-              <a href="https://github.com" target="_blank" rel="noreferrer" className="group flex items-center gap-4 text-white hover:text-[#ff6600] transition-colors">
+              <a href="https://github.com/K-meanStudio" target="_blank" rel="noreferrer" className="group flex items-center gap-4 text-white hover:text-[#ff6600] transition-colors">
                 <div className="flex h-10 w-10 items-center justify-center border border-gray-700 group-hover:border-[#ff6600] bg-gray-900 transition-colors">
                   <Github className="h-5 w-5" />
                 </div>
                 <span className="brand-font font-bold uppercase tracking-wider text-lg">GITHUB</span>
               </a>
-              <a href="mailto:contact@kmeanstudio.com" className="group flex items-center gap-4 text-white hover:text-[#ff6600] transition-colors">
+              <a href="mailto:kmeanstudio@gmail.com" className="group flex items-center gap-4 text-white hover:text-[#ff6600] transition-colors">
                 <div className="flex h-10 w-10 items-center justify-center border border-gray-700 group-hover:border-[#ff6600] bg-gray-900 transition-colors">
                   <Mail className="h-5 w-5" />
                 </div>
