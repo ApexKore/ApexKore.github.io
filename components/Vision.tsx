@@ -9,19 +9,18 @@ const Vision: React.FC = () => {
         
         {/* Left Column: Stacked Title with Border */}
         <div className="flex-shrink-0 flex">
-           {/* Thick Orange Left Bar */}
-          <div className="h-4 w-full max-w-[8rem] bg-black md:h-6 md:w-64"></div>
+           
+           {/* FIXED: Restored the Vertical Orange Bar */}
+           {/* It was 'h-4' (horizontal). Now it is 'w-4' (vertical) and Orange again. */}
+           <div className="w-4 md:w-6 bg-[#ff6600] flex-shrink-0 mr-6 md:mr-8 min-h-full"></div>
            
            <div className="flex flex-col justify-center py-1">
              <span className="brand-font text-xl md:text-3xl font-black uppercase tracking-[0.2em] text-black leading-none mb-0">
                THE
              </span>
              
-             {/* THE TRICK: text-[17vw] 
-                This calculates exactly 17% of the screen width.
-                It is the biggest possible size that fits next to the orange bar without cutting off.
-             */}
-             <h2 className="brand-font !text-[17vw] !sm:text-9xl !lg:text-[10rem] font-black uppercase leading-[0.8] text-black tracking-tighter -ml-1 break-words">
+             {/* Your Massive Font Fix is kept here: */}
+             <h2 className="brand-font !text-[17vw] sm:!text-9xl lg:!text-[10rem] font-black uppercase leading-[0.8] text-black tracking-tighter -ml-1 break-words">
                VISION
              </h2>
            </div>
