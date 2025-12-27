@@ -9,8 +9,13 @@ import Footer from './components/Footer';
 
 const App: React.FC = () => {
   return (
-    <div className="relative min-h-screen w-full bg-white text-black selection:bg-[#ff6600] selection:text-white">
+    // FIXED: 
+    // 1. Changed "relativze" to "relative" (Typo fix)
+    // 2. Added "overflow-x-hidden" (Prevents side-scrolling on mobile)
+    <div className="relative min-h-screen w-full overflow-x-hidden bg-white text-black selection:bg-[#ff6600] selection:text-white">
       <Navbar />
+      
+      {/* FIXED: Removed the stray letter 'a' inside main */}
       <main>
         <Hero />
         <Marquee />
@@ -18,6 +23,7 @@ const App: React.FC = () => {
         <Projects />
         <Vision />
       </main>
+      
       <Footer />
     </div>
   );

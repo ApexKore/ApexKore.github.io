@@ -10,7 +10,7 @@ const Projects: React.FC = () => {
           <h2 className="brand-font text-5xl font-black uppercase tracking-tighter md:text-7xl">
             Selected Works
           </h2>
-          <div className="h-4 w-32 bg-black md:h-6 md:w-64"></div>
+          <div className="h-4 w-full max-w-[8rem] bg-black md:h-6 md:w-64"></div>
         </div>
 
         <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-3">
