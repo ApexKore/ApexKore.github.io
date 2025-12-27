@@ -13,10 +13,15 @@ const Vision: React.FC = () => {
            <div className="w-4 md:w-6 bg-[#ff6600] flex-shrink-0 mr-6 md:mr-8 min-h-full"></div>
            
            <div className="flex flex-col justify-center py-1">
-             <span className="brand-font text-2xl md:text-3xl font-black uppercase tracking-[0.2em] text-black leading-none mb-0">
+             <span className="brand-font text-xl md:text-3xl font-black uppercase tracking-[0.2em] text-black leading-none mb-0">
                THE
              </span>
-             <h2 className="brand-font text-8xl md:text-9xl lg:text-[10rem] font-black uppercase leading-[0.8] text-black tracking-tighter -ml-1">
+             {/* FIXED TYPOGRAPHY BELOW:
+                - text-5xl: Fits on mobile screens (iPhone SE, etc)
+                - sm:text-8xl: Grows on Tablets
+                - lg:text-[10rem]: Massive on Desktop
+             */}
+             <h2 className="brand-font text-5xl sm:text-8xl md:text-9xl lg:text-[10rem] font-black uppercase leading-[0.8] text-black tracking-tighter -ml-1">
                VISION
              </h2>
            </div>
@@ -24,14 +29,15 @@ const Vision: React.FC = () => {
 
         {/* Right Column: Content */}
         <div className="flex-1 flex flex-col pt-4">
-          <h3 className="mb-8 brand-font text-5xl md:text-6xl font-black uppercase leading-none tracking-tight">
+          {/* Fixed "CALCULATED" text size for mobile safety */}
+          <h3 className="mb-8 brand-font text-4xl sm:text-5xl md:text-6xl font-black uppercase leading-none tracking-tight">
             CALCULATED <br className="hidden md:block"/> <span className="text-[#ff6600]">CREATIVITY</span>
           </h3>
           
           <p className="mb-12 max-w-xl text-lg md:text-xl font-medium leading-relaxed text-gray-800">
             Born from a hunger for better tools, we merge industrial precision with raw aesthetics to kill latency. We don't build for everyone; we build sharp, precise instruments for the few who demand total control.
             <br /><br />
-                        Visual storytelling for high-performers. We merge industrial precision with aesthetics to build software that feels fast and looks dangerous.
+            Visual storytelling for high-performers. We merge industrial precision with aesthetics to build software that feels fast and looks dangerous.
           </p>
 
           {/* Wide Rectangular Buttons Grid */}
@@ -39,10 +45,8 @@ const Vision: React.FC = () => {
             {pillars.map((pillar) => (
               <div 
                 key={pillar}
-                // Added flex, items-center, justify-center to force perfect centering
                 className="group relative border-2 border-black bg-white py-4 px-1 flex items-center justify-center transition-colors duration-300 hover:bg-black cursor-default"
               >
-                {/* Changed tracking-widest to tracking-wider to fit 'DOMINATE' */}
                 <span className="brand-font text-sm md:text-base font-bold uppercase tracking-wider whitespace-nowrap text-black group-hover:text-white transition-colors">
                   {pillar}
                 </span>
