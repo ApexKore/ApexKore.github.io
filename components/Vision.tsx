@@ -21,7 +21,7 @@ const Vision: React.FC = () => {
                 This calculates exactly 17% of the screen width.
                 It is the biggest possible size that fits next to the orange bar without cutting off.
              */}
-             <h2 className="brand-font text-[17vw] sm:text-9xl lg:text-[10rem] font-black uppercase leading-[0.8] text-black tracking-tighter -ml-1 break-words">
+             <h2 className="brand-font !text-[17vw] !sm:text-9xl !lg:text-[10rem] font-black uppercase leading-[0.8] text-black tracking-tighter -ml-1 break-words">
                VISION
              </h2>
            </div>
