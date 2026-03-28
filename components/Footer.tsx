@@ -59,7 +59,7 @@ const Footer: React.FC = () => {
           {/* Column 1: Brand Identity */}
           <div className="flex flex-col gap-6 lg:pr-8">
             <h2 className="brand-font text-5xl font-black text-[#ff6600] uppercase tracking-tighter leading-none">
-              K-MEAN<br/>STUDIO
+              APEX<br/>KORE
             </h2>
             <p className="text-gray-400 font-mono text-sm leading-relaxed max-w-xs border-l-2 border-gray-700 pl-4">
               Engineering digital experiences with precision and impact.
@@ -149,7 +149,7 @@ const Footer: React.FC = () => {
               <div className="pt-3 border-t border-gray-800 flex justify-between items-center">
                 <span className="text-[10px] text-gray-600">V.1.0.4</span>
                 <span className="text-[10px] text-gray-600 uppercase tracking-wider">
-                  K-MEAN STUDIO // ORG
+                  APEXKORE // ORG
                 </span>
               </div>
 
@@ -161,7 +161,7 @@ const Footer: React.FC = () => {
         {/* Bottom Bar: Copyright & OLD DOTS Restored */}
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="text-xs font-bold uppercase tracking-widest text-gray-600">
-            © {new Date().getFullYear()} K-MEAN STUDIO. ALL RIGHTS RESERVED.
+            © {new Date().getFullYear()} APEXKORE. ALL RIGHTS RESERVED.
           </div>
           
           {/* Restored: The Original Square/Circle Dots */}

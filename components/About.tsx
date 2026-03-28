@@ -31,9 +31,9 @@ const About: React.FC = () => {
                 Digital Architects
               </h3>
               <p className="text-lg text-gray-800 font-medium leading-relaxed mb-6">
-                Let's be real, Most software feels like homework. It's slow, boring, and cluttered. K-Mean Studio isn't a big agency in a glass tower. We are builders who got tired of using bad tools, so we started making our own. We build things that feel fast, look dangerous, and respect your intelligence.              </p>
+                Let's be real, Most software feels like homework. It's slow, boring, and cluttered. APEXKORE isn't a big agency in a glass tower. We are builders who got tired of using bad tools, so we started making our own. We build things that feel fast, look dangerous, and respect your intelligence.              </p>
               <p className="text-lg text-gray-600 leading-relaxed mb-12">
-                Our approach is personal. We simply build the software we wish existed. K-Mean Studio serves as our proving ground, where we transform our own ambitious workflows into precise, high-performance products. We share these systems because we believe tools of this caliber deserve to be used by those who can appreciate the difference.
+                Our approach is personal. We simply build the software we wish existed. APEXKORE serves as our proving ground, where we transform our own ambitious workflows into precise, high-performance products. We share these systems because we believe tools of this caliber deserve to be used by those who can appreciate the difference.
               </p>
             </div>
 

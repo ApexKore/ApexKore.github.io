@@ -11,7 +11,7 @@ const Navbar: React.FC = () => {
         {/* Logo Section - Text Based (Matches Footer) */}
         <div className="flex items-center">
           <a href="#home" className="brand-font text-2xl md:text-3xl font-black text-[#ff6600] uppercase tracking-tighter leading-none hover:opacity-80 transition-opacity">
-            K-MEAN<br/>STUDIO
+            APEX<br/>KORE
           </a>
         </div>
 
